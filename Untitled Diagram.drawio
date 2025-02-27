@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16" pages="4">
   <diagram name="Page-1" id="21v7A6P0tcVVJVMflWmf">
     <mxGraphModel dx="1509" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,6 +364,65 @@
         </mxCell>
         <mxCell id="Eh0DZUCQheAy16XRewN5-54" value="&lt;strong data-start=&quot;7428&quot; data-end=&quot;7436&quot;&gt;RMSE&lt;/strong&gt; and &lt;strong data-start=&quot;7441&quot; data-end=&quot;7447&quot;&gt;R²&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="365" y="1040" width="195" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rN4BcqlFOrvYDbQFD-EQ" name="Page-4">
+    <mxGraphModel dx="1122" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-1" value="&lt;strong data-start=&quot;21&quot; data-end=&quot;46&quot;&gt;Classification Models&lt;/strong&gt; &amp;amp; &lt;strong data-start=&quot;51&quot; data-end=&quot;71&quot;&gt;Model Evaluation&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VabaTQ-oLK2Y-c0kKiKm-2" target="VabaTQ-oLK2Y-c0kKiKm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VabaTQ-oLK2Y-c0kKiKm-2" target="VabaTQ-oLK2Y-c0kKiKm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VabaTQ-oLK2Y-c0kKiKm-2" target="VabaTQ-oLK2Y-c0kKiKm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-2" value="Models Defined" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-3" value="Linear Discriminant Analysis (LDA)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-4" value="Quadratic Discriminant Analysis (QDA)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VabaTQ-oLK2Y-c0kKiKm-5" target="VabaTQ-oLK2Y-c0kKiKm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-5" value="K-Nearest Neighbors (K-NN)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-7" value="&lt;b&gt;Use case&lt;/b&gt;: When classes are well-separated and normally distributed.&amp;nbsp;&lt;span style=&quot;font-size: 15px; text-align: center;&quot;&gt;Smaller datasets&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-16" value="&lt;strong data-start=&quot;1490&quot; data-end=&quot;1502&quot;&gt;Use Case&lt;/strong&gt;: When class distributions have different covariance structures. L&lt;span style=&quot;font-size: 15px; text-align: center;&quot;&gt;arger sample sizes&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-17" value="&lt;strong data-start=&quot;1993&quot; data-end=&quot;2005&quot;&gt;Use Case&lt;/strong&gt;: When decision boundaries are complex and non-linear." style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VabaTQ-oLK2Y-c0kKiKm-18" target="VabaTQ-oLK2Y-c0kKiKm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-18" value="Tuning Parameters for K-NN" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-19" value="&lt;strong data-end=&quot;3002&quot; data-start=&quot;2984&quot;&gt;Common choices&lt;/strong&gt; for K are odd numbers (e.g., 3, 5, 7) to &lt;strong data-end=&quot;3058&quot; data-start=&quot;3044&quot;&gt;avoid ties&lt;/strong&gt; in majority voting." style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="570" y="390" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-22" value="metric_set(roc_auc, accuracy, kap)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VabaTQ-oLK2Y-c0kKiKm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.381;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VabaTQ-oLK2Y-c0kKiKm-18" target="VabaTQ-oLK2Y-c0kKiKm-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
