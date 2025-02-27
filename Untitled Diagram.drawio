@@ -241,7 +241,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qr7zt38qqJCBcI_q1vIG" name="Page-3">
-    <mxGraphModel dx="1590" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,13 +344,13 @@
         <mxCell id="Eh0DZUCQheAy16XRewN5-36" value="Refit the Model &amp;amp;&amp;nbsp;Evaluate on Test Set" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="480" y="790" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Eh0DZUCQheAy16XRewN5-46" value="1. Penalized Linear Regression Models" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="Eh0DZUCQheAy16XRewN5-46" value="1. Penalized Linear Regression Models" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="20" y="30" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Eh0DZUCQheAy16XRewN5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-47" target="Eh0DZUCQheAy16XRewN5-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Eh0DZUCQheAy16XRewN5-47" value="2.Types of Unbiased Penalties" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="Eh0DZUCQheAy16XRewN5-47" value="2.Types of Unbiased Penalties" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;spacingLeft=4;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="20" y="900" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eh0DZUCQheAy16XRewN5-50" value="1. Adaptive Lasso&lt;div&gt;2. SCAD (Smoothly Clipped Absolute Deviation)&lt;/div&gt;&lt;div&gt;3. MCP (Minimax Concave Penalty)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;align=left;spacingLeft=4;" vertex="1" parent="1">
@@ -359,7 +359,7 @@
         <mxCell id="Eh0DZUCQheAy16XRewN5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-53" target="Eh0DZUCQheAy16XRewN5-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Eh0DZUCQheAy16XRewN5-53" value="3. Calculating Model Performance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;spacingLeft=4;" vertex="1" parent="1">
+        <mxCell id="Eh0DZUCQheAy16XRewN5-53" value="3. Calculating Model Performance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;spacingLeft=4;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="20" y="1040" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Eh0DZUCQheAy16XRewN5-54" value="&lt;strong data-start=&quot;7428&quot; data-end=&quot;7436&quot;&gt;RMSE&lt;/strong&gt; and &lt;strong data-start=&quot;7441&quot; data-end=&quot;7447&quot;&gt;R²&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
