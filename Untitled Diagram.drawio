@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16" pages="3">
   <diagram name="Page-1" id="21v7A6P0tcVVJVMflWmf">
     <mxGraphModel dx="1509" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,6 +236,134 @@
         </mxCell>
         <mxCell id="ZpiK_ydDPRQ57wMzd1HQ-47" value="&lt;b&gt;AIC, BIC, or Adjusted R²&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="1020" width="195" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Qr7zt38qqJCBcI_q1vIG" name="Page-3">
+    <mxGraphModel dx="1590" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eh0DZUCQheAy16XRewN5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-1" target="Eh0DZUCQheAy16XRewN5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-1" target="Eh0DZUCQheAy16XRewN5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-1" target="Eh0DZUCQheAy16XRewN5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-1" target="Eh0DZUCQheAy16XRewN5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-1" value="Types of Penalized Regression Models" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-2" target="Eh0DZUCQheAy16XRewN5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-2" target="Eh0DZUCQheAy16XRewN5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-2" value="Lasso Regression" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="145" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-3" target="Eh0DZUCQheAy16XRewN5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-3" target="Eh0DZUCQheAy16XRewN5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-3" value="Ridge Regression" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="255" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-4" target="Eh0DZUCQheAy16XRewN5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-4" target="Eh0DZUCQheAy16XRewN5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-4" value="Elastic Net&lt;div&gt;(Combines Lasso and Ridge)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="425" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-5" value="1. sparse solutions&lt;div&gt;2. high-dimensional data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=14;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-7" value="&lt;div&gt;1. Shrinks some coefficients to exactly zero, &lt;b&gt;effectively performing variable selection&lt;/b&gt;.&lt;/div&gt;&lt;div&gt;2. Retains only &lt;b&gt;the most influential predictors&lt;/b&gt;.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=14;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-8" value="&lt;div&gt;1.Shrinks coefficients uniformly.&lt;/div&gt;&lt;div&gt;2.Retains all predictors but reduces their impact.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=14;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-9" value="&lt;div&gt;1. When &lt;b&gt;all predictors are potentially useful&lt;/b&gt; but multicollinearity is present.&lt;/div&gt;&lt;div&gt;2. When you want to &lt;b&gt;regularize the model without variable selection&lt;/b&gt;.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=13;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="485" y="320" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-10" value="&lt;div&gt;1. performing variable selection while retaining correlated predictors.&lt;/div&gt;&lt;div&gt;2. Balances sparsity and regularization.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=14;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-11" value="&lt;div&gt;1. When there are &lt;b&gt;high correlations&lt;/b&gt; among predictors, and you want to retain groups of correlated features.&lt;/div&gt;&lt;div&gt;2. Ideal for &lt;b&gt;high-dimensional&lt;/b&gt; data with potential group effects.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=14;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-12" target="Eh0DZUCQheAy16XRewN5-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-12" target="Eh0DZUCQheAy16XRewN5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-12" target="Eh0DZUCQheAy16XRewN5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-12" value="Model Selection and Cross-Validation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-30" target="Eh0DZUCQheAy16XRewN5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-30" value="Find Best Models" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-31" target="Eh0DZUCQheAy16XRewN5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-31" value="Cross-Validation (CV Results)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-32" value="To &lt;strong data-start=&quot;2602&quot; data-end=&quot;2646&quot;&gt;tune the penalty parameter (&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi&gt;&lt;br&gt;&lt;/mi&gt;&lt;/mrow&gt;\lambda&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;λ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;/strong&gt; and optimize model performance." style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=14;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-34" value="Compare Lasso, Ridge, and Elastic Net using cross-validated metrics." style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=left;spacingTop=0;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="710" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-35" target="Eh0DZUCQheAy16XRewN5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Finalize the Best Model&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-36" value="Refit the Model &amp;amp;&amp;nbsp;Evaluate on Test Set" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="790" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-46" value="1. Penalized Linear Regression Models" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-47" target="Eh0DZUCQheAy16XRewN5-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-47" value="2.Types of Unbiased Penalties" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="900" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-50" value="1. Adaptive Lasso&lt;div&gt;2. SCAD (Smoothly Clipped Absolute Deviation)&lt;/div&gt;&lt;div&gt;3. MCP (Minimax Concave Penalty)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="895" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eh0DZUCQheAy16XRewN5-53" target="Eh0DZUCQheAy16XRewN5-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-53" value="3. Calculating Model Performance" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1040" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eh0DZUCQheAy16XRewN5-54" value="&lt;strong data-start=&quot;7428&quot; data-end=&quot;7436&quot;&gt;RMSE&lt;/strong&gt; and &lt;strong data-start=&quot;7441&quot; data-end=&quot;7447&quot;&gt;R²&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1040" width="195" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
