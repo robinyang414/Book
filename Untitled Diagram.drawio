@@ -665,12 +665,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_yulIdkrDK9DUzbUAnX-" name="Page-7">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="O4PTRZUl5Oj29spSf6Is-1" value="线性回归" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-3" target="O4PTRZUl5Oj29spSf6Is-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O4PTRZUl5Oj29spSf6Is-3" value="线性回归" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="240" y="80" width="120" height="60" as="geometry" />
@@ -699,7 +702,7 @@
         <mxCell id="O4PTRZUl5Oj29spSf6Is-6" value="L2损失&lt;div&gt;（平方差总和）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="420" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O4PTRZUl5Oj29spSf6Is-7" value="均方误差（MSE）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-7" value="均方误差（MSE）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;" vertex="1" parent="1">
           <mxGeometry x="600" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O4PTRZUl5Oj29spSf6Is-8" value="平均绝对误差&lt;div&gt;（MAE）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
@@ -720,8 +723,14 @@
         <mxCell id="O4PTRZUl5Oj29spSf6Is-19" value="&lt;span style=&quot;color: rgb(32, 33, 36); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;MSE 训练的模型会使模型更接近离群值，MAE更远&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="600" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O4PTRZUl5Oj29spSf6Is-21" value="y&#39; = b + w&lt;sub&gt;1&lt;/sub&gt;x&lt;sub&gt;1&lt;/sub&gt; + w&lt;sub&gt;2&lt;/sub&gt;x&lt;sub&gt;2 &lt;/sub&gt;+ w&lt;sub&gt;3&lt;/sub&gt;x&lt;sub&gt;3&lt;/sub&gt; + w&lt;sub&gt;4&lt;/sub&gt;x&lt;sub&gt;4&lt;/sub&gt; + ..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="290" height="60" as="geometry" />
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-21" value="y&#39; = b + w&lt;sub&gt;1&lt;/sub&gt;x&lt;sub&gt;1&lt;/sub&gt; + w&lt;sub&gt;2&lt;/sub&gt;x&lt;sub&gt;2 &lt;/sub&gt;+ w&lt;sub&gt;3&lt;/sub&gt;x&lt;sub&gt;3&lt;/sub&gt; + w&lt;sub&gt;4&lt;/sub&gt;x&lt;sub&gt;4&lt;/sub&gt; + ...&lt;div&gt;(权重 w + 偏差 b)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-25" value="&lt;font&gt;&lt;b&gt;梯度下降&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;（&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(32, 33, 36); font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start;&quot;&gt;迭代方式找出权重和偏差&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
