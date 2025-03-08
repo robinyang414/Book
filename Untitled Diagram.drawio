@@ -664,13 +664,25 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="_yulIdkrDK9DUzbUAnX-" name="Page-7">
-    <mxGraphModel dx="2284" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="_yulIdkrDK9DUzbUAnX-" name="linear regression">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-1" target="O4PTRZUl5Oj29spSf6Is-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-1" target="O4PTRZUl5Oj29spSf6Is-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-1" target="O4PTRZUl5Oj29spSf6Is-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-1" target="O4PTRZUl5Oj29spSf6Is-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O4PTRZUl5Oj29spSf6Is-1" value="线性回归" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O4PTRZUl5Oj29spSf6Is-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-3" target="O4PTRZUl5Oj29spSf6Is-21">
           <mxGeometry relative="1" as="geometry" />
@@ -726,11 +738,77 @@
         <mxCell id="O4PTRZUl5Oj29spSf6Is-21" value="y&#39; = b + w&lt;sub&gt;1&lt;/sub&gt;x&lt;sub&gt;1&lt;/sub&gt; + w&lt;sub&gt;2&lt;/sub&gt;x&lt;sub&gt;2 &lt;/sub&gt;+ w&lt;sub&gt;3&lt;/sub&gt;x&lt;sub&gt;3&lt;/sub&gt; + w&lt;sub&gt;4&lt;/sub&gt;x&lt;sub&gt;4&lt;/sub&gt; + ...&lt;div&gt;(权重 w + 偏差 b)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="420" y="80" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O4PTRZUl5Oj29spSf6Is-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="500" width="120" height="60" as="geometry" />
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-23" target="O4PTRZUl5Oj29spSf6Is-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-23" value="&lt;h2 style=&quot;box-sizing: inherit; margin: var(--devsite-h2-margin); overflow-x: clip; text-overflow: ellipsis; border-bottom: var(--devsite-h2-border,var(--devsite-secondary-border)); padding: var(--devsite-h2-padding); color: rgb(32, 33, 36); background-color: rgb(255, 255, 255);&quot; role=&quot;presentation&quot; tabindex=&quot;-1&quot; id=&quot;model_convergence_and_loss_curves&quot; data-text=&quot;模型收敛曲线和损失曲线&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: normal;&quot; aria-level=&quot;2&quot; role=&quot;heading&quot; class=&quot;devsite-heading&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;模型收敛曲线和损失曲线&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-25" target="O4PTRZUl5Oj29spSf6Is-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-25" target="O4PTRZUl5Oj29spSf6Is-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O4PTRZUl5Oj29spSf6Is-25" value="&lt;font&gt;&lt;b&gt;梯度下降&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;（&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(32, 33, 36); font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start;&quot;&gt;迭代方式找出权重和偏差&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-26" target="O4PTRZUl5Oj29spSf6Is-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-26" value="&lt;h3 style=&quot;box-sizing: inherit; margin: var(--devsite-h3-margin); overflow-x: clip; text-overflow: ellipsis; color: rgb(32, 33, 36); text-align: start; background-color: rgb(255, 255, 255);&quot; role=&quot;presentation&quot; tabindex=&quot;-1&quot; id=&quot;convergence_and_convex_functions&quot; data-text=&quot;收敛和凸函数&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: normal;&quot; aria-level=&quot;3&quot; role=&quot;heading&quot; class=&quot;devsite-heading&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;收敛和凸函数&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-27" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(32, 33, 36); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;线性模型的损失函数始终会生成&lt;/span&gt;&lt;a style=&quot;box-sizing: inherit; outline: 0px; text-decoration: var(--devsite-link-text-decoration,none); word-break: break-word; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://developers.google.com/machine-learning/glossary?hl=zh-cn#convex-function&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: 700;&quot;&gt;凸&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;color: rgb(32, 33, 36); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;函数&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-31" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;当线性回归模型收敛时，我们就知道该模型找到了可产生最小损失的权重和偏差&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-33" target="O4PTRZUl5Oj29spSf6Is-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-33" target="O4PTRZUl5Oj29spSf6Is-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-33" target="O4PTRZUl5Oj29spSf6Is-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-33" target="O4PTRZUl5Oj29spSf6Is-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;超参数&lt;/font&gt;&lt;div&gt;&lt;font&gt;（hyper-parameter）&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-34" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;超参数是您控制的值；参数是模型在训练期间计算的值&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-35" target="O4PTRZUl5Oj29spSf6Is-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-35" value="&lt;h2 style=&quot;box-sizing: inherit; margin: var(--devsite-h2-margin); overflow-x: clip; text-overflow: ellipsis; border-bottom: var(--devsite-h2-border,var(--devsite-secondary-border)); padding: var(--devsite-h2-padding); color: rgb(32, 33, 36); text-align: start; background-color: rgb(255, 255, 255);&quot; role=&quot;presentation&quot; tabindex=&quot;-1&quot; id=&quot;learning_rate&quot; data-text=&quot;学习速率&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: normal;&quot; aria-level=&quot;2&quot; role=&quot;heading&quot; class=&quot;devsite-heading&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;学习速率&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-36" target="O4PTRZUl5Oj29spSf6Is-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-36" value="&lt;h2 style=&quot;box-sizing: inherit; margin: var(--devsite-h2-margin); overflow-x: clip; text-overflow: ellipsis; border-bottom: var(--devsite-h2-border,var(--devsite-secondary-border)); padding: var(--devsite-h2-padding); color: rgb(32, 33, 36); background-color: rgb(255, 255, 255);&quot; role=&quot;presentation&quot; tabindex=&quot;-1&quot; id=&quot;batch_size&quot; data-text=&quot;批次大小&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: normal;&quot; aria-level=&quot;2&quot; role=&quot;heading&quot; class=&quot;devsite-heading&quot;&gt;&lt;font style=&quot;&quot;&gt;批次大小(&lt;/font&gt;&lt;/span&gt;&lt;a style=&quot;font-weight: normal; box-sizing: inherit; outline: 0px; text-decoration: var(--devsite-link-text-decoration,none); word-break: break-word; font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start;&quot; href=&quot;https://developers.google.com/machine-learning/glossary?hl=zh-cn#example&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: 700;&quot;&gt;示例&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: normal; font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start;&quot;&gt;数量&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(32, 33, 36), rgb(208, 209, 212));&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;span style=&quot;box-sizing: inherit;&quot; aria-level=&quot;2&quot; role=&quot;heading&quot; class=&quot;devsite-heading&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;（batch size）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4PTRZUl5Oj29spSf6Is-37" target="O4PTRZUl5Oj29spSf6Is-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-37" value="&lt;h2 style=&quot;box-sizing: inherit; margin: var(--devsite-h2-margin); overflow-x: clip; text-overflow: ellipsis; border-bottom: var(--devsite-h2-border,var(--devsite-secondary-border)); padding: var(--devsite-h2-padding); color: rgb(32, 33, 36); background-color: rgb(255, 255, 255);&quot; role=&quot;presentation&quot; tabindex=&quot;-1&quot; id=&quot;epochs&quot; data-text=&quot;周期数&quot;&gt;&lt;span style=&quot;box-sizing: inherit; font-weight: normal;&quot; aria-level=&quot;2&quot; role=&quot;heading&quot; class=&quot;devsite-heading&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;周期数&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(iteration)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-38" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;如果学习率过低，模型可能需要很长时间才能收敛。过高模型将永远不会收敛&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="740" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;a style=&quot;box-sizing: inherit; outline: 0px; text-decoration: var(--devsite-link-text-decoration,none); word-break: break-word; font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://developers.google.com/machine-learning/glossary?hl=zh-cn#mini-batch-stochastic-gradient-descent&quot;&gt;&lt;span style=&quot;box-sizing: inherit;&quot;&gt;随机梯度下降&lt;/span&gt;&lt;/a&gt;(SGD)&lt;span style=&quot;font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;和&lt;/span&gt;&lt;a style=&quot;box-sizing: inherit; outline: 0px; text-decoration: var(--devsite-link-text-decoration,none); word-break: break-word; font-family: Roboto, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans JP&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Naskh Arabic&amp;quot;, &amp;quot;Noto Sans Thai&amp;quot;, &amp;quot;Noto Sans Hebrew&amp;quot;, &amp;quot;Noto Sans Bengali&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot; href=&quot;https://developers.google.com/machine-learning/glossary?hl=zh-cn#mini-batch-stochastic-gradient-descent&quot;&gt;&lt;span style=&quot;box-sizing: inherit;&quot;&gt;小批量随机梯度下降&lt;/span&gt;&lt;/a&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="830" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O4PTRZUl5Oj29spSf6Is-45" value="Full batch; single batch; one epoch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
