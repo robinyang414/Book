@@ -1274,65 +1274,77 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mpRTu97OvhrgcPRw8Eag" name="Page-13">
-    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hm73lvq_0gJpktWqqyML-1" value="Regression (Predicting continuous values)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2y7BH0HSUiUR82YssKUR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hm73lvq_0gJpktWqqyML-1" target="hm73lvq_0gJpktWqqyML-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm73lvq_0gJpktWqqyML-1" value="Regression (Predicting continuous values)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-2" value="Classification (Predicting categories or labels)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2y7BH0HSUiUR82YssKUR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hm73lvq_0gJpktWqqyML-2" target="hm73lvq_0gJpktWqqyML-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm73lvq_0gJpktWqqyML-2" value="Classification (Predicting categories or labels)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-3" value="Clustering (Unsupervised grouping)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2y7BH0HSUiUR82YssKUR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hm73lvq_0gJpktWqqyML-3" target="hm73lvq_0gJpktWqqyML-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hm73lvq_0gJpktWqqyML-3" value="Clustering (Unsupervised grouping)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-4" value="Type of Problem" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="20" width="160" height="80" as="geometry" />
+        <mxCell id="hm73lvq_0gJpktWqqyML-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Type of Problem&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="10" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-5" value="Dimensionality Reduction / Feature Extraction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="880" width="120" height="60" as="geometry" />
+        <mxCell id="2y7BH0HSUiUR82YssKUR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hm73lvq_0gJpktWqqyML-5" target="hm73lvq_0gJpktWqqyML-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-6" value="&lt;strong data-end=&quot;446&quot; data-start=&quot;401&quot;&gt;Small to medium data, linear relationship&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;473&quot; data-start=&quot;454&quot;&gt;Linear Regression&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="240" height="60" as="geometry" />
+        <mxCell id="hm73lvq_0gJpktWqqyML-5" value="Dimensionality Reduction / Feature Extraction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-7" value="&lt;strong data-end=&quot;509&quot; data-start=&quot;476&quot;&gt;Nonlinear or complex patterns&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;532&quot; data-start=&quot;517&quot;&gt;Decision Tree&lt;/code&gt;, &lt;code data-end=&quot;549&quot; data-start=&quot;534&quot;&gt;Random Forest&lt;/code&gt;, &lt;code data-end=&quot;570&quot; data-start=&quot;551&quot;&gt;Gradient Boosting&lt;/code&gt;, &lt;code data-end=&quot;577&quot; data-start=&quot;572&quot;&gt;SVR&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="240" height="60" as="geometry" />
+        <mxCell id="hm73lvq_0gJpktWqqyML-6" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;strong style=&quot;&quot; data-end=&quot;446&quot; data-start=&quot;401&quot;&gt;Small to medium data, linear relationship&lt;/strong&gt;:&lt;br&gt;→ &lt;code style=&quot;&quot; data-end=&quot;473&quot; data-start=&quot;454&quot;&gt;Linear Regression&lt;/code&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="130" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-8" value="&lt;strong data-end=&quot;621&quot; data-start=&quot;580&quot;&gt;High-dimensional data (many features)&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;647&quot; data-start=&quot;629&quot;&gt;Lasso Regression&lt;/code&gt;, &lt;code data-end=&quot;667&quot; data-start=&quot;649&quot;&gt;Ridge Regression&lt;/code&gt;, &lt;code data-end=&quot;674&quot; data-start=&quot;669&quot;&gt;SVR&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="270" width="240" height="60" as="geometry" />
+        <mxCell id="hm73lvq_0gJpktWqqyML-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;509&quot; data-start=&quot;476&quot;&gt;Nonlinear or complex patterns&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;532&quot; data-start=&quot;517&quot;&gt;Decision Tree&lt;/code&gt;, &lt;code data-end=&quot;549&quot; data-start=&quot;534&quot;&gt;Random Forest&lt;/code&gt;, &lt;code data-end=&quot;570&quot; data-start=&quot;551&quot;&gt;Gradient Boosting&lt;/code&gt;, &lt;code data-end=&quot;577&quot; data-start=&quot;572&quot;&gt;SVR&lt;/code&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="200" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-9" value="&lt;strong data-end=&quot;790&quot; data-start=&quot;743&quot;&gt;Simple binary classification, interpretable&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;819&quot; data-start=&quot;798&quot;&gt;Logistic Regression&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;621&quot; data-start=&quot;580&quot;&gt;High-dimensional data (many features)&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;647&quot; data-start=&quot;629&quot;&gt;Lasso Regression&lt;/code&gt;, &lt;code data-end=&quot;667&quot; data-start=&quot;649&quot;&gt;Ridge Regression&lt;/code&gt;, &lt;code data-end=&quot;674&quot; data-start=&quot;669&quot;&gt;SVR&lt;/code&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="270" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hm73lvq_0gJpktWqqyML-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;790&quot; data-start=&quot;743&quot;&gt;Simple binary classification, interpretable&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;819&quot; data-start=&quot;798&quot;&gt;Logistic Regression&lt;/code&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="400" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-10" value="&lt;strong data-end=&quot;858&quot; data-start=&quot;822&quot;&gt;Nonlinear or interaction effects&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;881&quot; data-start=&quot;866&quot;&gt;Decision Tree&lt;/code&gt;, &lt;code data-end=&quot;898&quot; data-start=&quot;883&quot;&gt;Random Forest&lt;/code&gt;, &lt;code data-end=&quot;919&quot; data-start=&quot;900&quot;&gt;Gradient Boosting&lt;/code&gt;, &lt;code data-end=&quot;926&quot; data-start=&quot;921&quot;&gt;SVM&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;858&quot; data-start=&quot;822&quot;&gt;Nonlinear or interaction effects&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;881&quot; data-start=&quot;866&quot;&gt;Decision Tree&lt;/code&gt;, &lt;code data-end=&quot;898&quot; data-start=&quot;883&quot;&gt;Random Forest&lt;/code&gt;, &lt;code data-end=&quot;919&quot; data-start=&quot;900&quot;&gt;Gradient Boosting&lt;/code&gt;, &lt;code data-end=&quot;926&quot; data-start=&quot;921&quot;&gt;SVM&lt;/code&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="480" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-11" value="&lt;strong data-end=&quot;972&quot; data-start=&quot;929&quot;&gt;Small dataset, simple decision boundary&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;985&quot; data-start=&quot;980&quot;&gt;KNN&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-11" value="&lt;strong data-end=&quot;972&quot; data-start=&quot;929&quot;&gt;Small dataset, simple decision boundary&lt;/strong&gt;: → &lt;code data-end=&quot;985&quot; data-start=&quot;980&quot;&gt;KNN&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="320" y="560" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-12" value="&lt;strong data-end=&quot;1034&quot; data-start=&quot;988&quot;&gt;High-dimensional data (e.g., text, images)&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1047&quot; data-start=&quot;1042&quot;&gt;SVM&lt;/code&gt;, &lt;code data-end=&quot;1066&quot; data-start=&quot;1049&quot;&gt;Neural Networks&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;1034&quot; data-start=&quot;988&quot;&gt;High-dimensional data (e.g., text, images)&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1047&quot; data-start=&quot;1042&quot;&gt;SVM&lt;/code&gt;, &lt;code data-end=&quot;1066&quot; data-start=&quot;1049&quot;&gt;Neural Networks&lt;/code&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="400" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-13" value="&lt;strong data-end=&quot;1105&quot; data-start=&quot;1069&quot;&gt;Unbalanced classes (rare events)&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1122&quot; data-start=&quot;1113&quot;&gt;XGBoost&lt;/code&gt;, &lt;code data-end=&quot;1158&quot; data-start=&quot;1124&quot;&gt;Logistic Regression + resampling&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-13" value="&lt;strong data-end=&quot;1105&quot; data-start=&quot;1069&quot;&gt;Unbalanced classes (rare events)&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1122&quot; data-start=&quot;1113&quot;&gt;XGBoost&lt;/code&gt;, &lt;code data-end=&quot;1158&quot; data-start=&quot;1124&quot;&gt;Logistic Regression + resampling&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="580" y="480" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-14" value="&lt;strong data-end=&quot;1261&quot; data-start=&quot;1213&quot;&gt;Spherical clusters, known number of clusters&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1278&quot; data-start=&quot;1269&quot;&gt;K-Means&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-14" value="&lt;strong data-end=&quot;1261&quot; data-start=&quot;1213&quot;&gt;Spherical clusters, known number of clusters&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1278&quot; data-start=&quot;1269&quot;&gt;K-Means&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="320" y="680" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-15" value="&lt;strong data-end=&quot;1329&quot; data-start=&quot;1281&quot;&gt;Unknown number of clusters, irregular shapes&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1345&quot; data-start=&quot;1337&quot;&gt;DBSCAN&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-15" value="&lt;strong data-end=&quot;1329&quot; data-start=&quot;1281&quot;&gt;Unknown number of clusters, irregular shapes&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1345&quot; data-start=&quot;1337&quot;&gt;DBSCAN&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="320" y="760" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-16" value="&lt;strong data-end=&quot;1393&quot; data-start=&quot;1348&quot;&gt;Hierarchical relationships or dendrograms&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1426&quot; data-start=&quot;1401&quot;&gt;Hierarchical Clustering&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-16" value="&lt;strong data-end=&quot;1393&quot; data-start=&quot;1348&quot;&gt;Hierarchical relationships or dendrograms&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1426&quot; data-start=&quot;1401&quot;&gt;Hierarchical Clustering&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="600" y="680" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-17" value="&lt;strong data-end=&quot;1512&quot; data-start=&quot;1492&quot;&gt;Linear structure&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1525&quot; data-start=&quot;1520&quot;&gt;PCA&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-17" value="&lt;strong data-end=&quot;1512&quot; data-start=&quot;1492&quot;&gt;Linear structure&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1525&quot; data-start=&quot;1520&quot;&gt;PCA&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="320" y="880" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-18" value="&lt;strong data-end=&quot;1551&quot; data-start=&quot;1528&quot;&gt;Nonlinear structure&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1566&quot; data-start=&quot;1559&quot;&gt;t-SNE&lt;/code&gt;, &lt;code data-end=&quot;1574&quot; data-start=&quot;1568&quot;&gt;UMAP&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-18" value="&lt;strong data-end=&quot;1551&quot; data-start=&quot;1528&quot;&gt;Nonlinear structure&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1566&quot; data-start=&quot;1559&quot;&gt;t-SNE&lt;/code&gt;, &lt;code data-end=&quot;1574&quot; data-start=&quot;1568&quot;&gt;UMAP&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="320" y="960" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hm73lvq_0gJpktWqqyML-19" value="&lt;strong data-end=&quot;1603&quot; data-start=&quot;1577&quot;&gt;Deep learning features&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1625&quot; data-start=&quot;1611&quot;&gt;Autoencoders&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hm73lvq_0gJpktWqqyML-19" value="&lt;strong data-end=&quot;1603&quot; data-start=&quot;1577&quot;&gt;Deep learning features&lt;/strong&gt;:&lt;br&gt;→ &lt;code data-end=&quot;1625&quot; data-start=&quot;1611&quot;&gt;Autoencoders&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="600" y="880" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
